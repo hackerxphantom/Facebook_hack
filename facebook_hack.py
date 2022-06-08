@@ -30,7 +30,7 @@ except ImportError:
     print("  [*] Please Use: 'pip install mechanize' to install it :)")
     sys.exit(1)
 
-class FaceBoom(object):
+class FaceBook_hack(object):
 
 
     def __init__(self):
@@ -207,7 +207,7 @@ def Main():
     facebook_hack.updateFacebook_hack()
     sys.exit(1)
    elif target_profile:
-        faceboom.get_profile_id(target_profile)
+        facebook_hack.get_profile_id(target_profile)
         sys.exit(1)
    elif wordlist or single_passwd:
         if wordlist:
@@ -225,9 +225,9 @@ def Main():
                     sys.exit(1)
              print(wi+"["+yl+"~"+wi+"] Connecting To "+wi+"Proxy[\033[1;33m {} \033[1;37m]...".format(proxy if not ":" in proxy else proxy.split(":")[0]))
              final_proxy = proxy+":8080" if not ":" in proxy else proxy
-             if faceboom.check_proxy(final_proxy):
-                faceboom.useProxy = final_proxy
-                faceboom.br.set_proxies({'https':faceboom.useProxy, 'http':facebook_hack.useProxy})
+             if facebook_hack.check_proxy(final_proxy):
+                facebook_hack.useProxy = final_proxy
+                facebook_hack.br.set_proxies({'https':facebook_hack.useProxy, 'http':facebook_hack.useProxy})
                 print(wi+"["+gr+"Connected"+wi+"]")
              else:
                 errMsg("Connection Failed")
