@@ -1,2 +1,0 @@
-pip install mechanize
-pkg install wget
