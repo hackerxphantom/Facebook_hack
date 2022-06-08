@@ -36,7 +36,7 @@ git clone https://github.com/hackerxphantom/Facebook_hack.git
 cd Facebook_hack
 ```
 ```bash
-pip install -r requirements.txt
+bash setup
 ```
 ```bash
 python facebook_hack.py
