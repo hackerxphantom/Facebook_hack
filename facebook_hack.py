@@ -30,7 +30,7 @@ except ImportError:
     print("  [*] Please Use: 'pip install mechanize' to install it :)")
     sys.exit(1)
 
-class FaceBook_hack(object):
+class FaceBoom(object):
 
 
     def __init__(self):
