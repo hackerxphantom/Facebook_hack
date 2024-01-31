@@ -1,6 +1,6 @@
 # Facebook_hack
 
-![PicsArt_22-06-08_16-34-50-148](https://user-images.githubusercontent.com/70594016/172602116-20012d77-f4c2-45a6-a5fb-391f683c0f05.png)
+![PicsArt_22-06-08_16-34-50-148] https://www.facebook.com/dayzielynnbaby?mibextid=LQQJ4d
 ###### Powerfull Facebook Bruteforce Attack.
 ***
 ### <p align="center">Commands to run tool in ur terminal Termux && Kali Linux
@@ -43,7 +43,7 @@ python facebook_hack.py
 ```
 
 ## usage :-
-  - **U can Use Victim email Or Facebook Profile Id**:
+  - **U can Use Victim email Or Facebook Profile Id**:https://www.facebook.com/dayzielynnbaby?mibextid=LQQJ4d
   
   - **Brute Force On Facebook Account Without proxy**:
   
