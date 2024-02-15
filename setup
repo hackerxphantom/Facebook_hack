@@ -1,5 +1,4 @@
-#bin/python
-#codded by hacker xphantom
+
 
 pip install mechanize
 pkg install wget
